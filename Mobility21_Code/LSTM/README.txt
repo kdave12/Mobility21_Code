@@ -2,7 +2,8 @@
 README - LSTM
 *************************
 
-covarianceMatrix_LSTM.py - Converts motion patterns from the Argo mixture models data files into a covariance matrix calculated for each pattern based on their corresponding frames.
+covarianceMatrix_LSTM.py 
+- Converts motion patterns from the Argo mixture models data files into a covariance matrix calculated for each pattern based on their corresponding frames.
 - Applies vanilla LSTM to the covariance matrices and predicts the next steps in the covariance matrices based on input of the previous steps.
 
 read_data.py
